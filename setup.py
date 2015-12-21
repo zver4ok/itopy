@@ -8,7 +8,7 @@ setup(
     packages=["itopy"],
     keywords="itop api cmdb",
     url="https://github.com/jonatasbaldin/itopy/",
-    description="Library for manipulating iTOP",
+    description="Library for manipulating iTOP CMDB/ITSM",
     long_description=open('README.txt').read(),
     install_requires=[
         "requests",

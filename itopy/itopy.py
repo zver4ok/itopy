@@ -3,6 +3,8 @@ Python library for iTOP API
 github.com/jonatasbaldin/itopy
 """
 
+import requests, json
+
 class MyException(Exception):
     """
     Handle custom exceptions
