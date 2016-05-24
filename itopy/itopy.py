@@ -205,6 +205,7 @@ class Api(object):
             'VLAN': 'vlan_tag',
             'IPv4Address': 'ip',
             'lnkConnectableCIToNetworkDevice': 'dontcheck',
+            'lnkFunctionalCIToService': 'functionalci_name',
         }
         
         if obj_dict.get(obj_class):
